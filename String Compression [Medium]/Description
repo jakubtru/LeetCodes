@@ -10,3 +10,5 @@ Note that group lengths that are 10 or longer will be split into multiple charac
 After you are done modifying the input array, return the new length of the array.
 
 You must write an algorithm that uses only constant extra space.
+
+Solution beats 95% of submissions at runtime.
