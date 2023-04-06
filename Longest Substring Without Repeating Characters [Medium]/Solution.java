@@ -12,16 +12,11 @@ class Solution {
                 if (list.size() > maxLength) {
                     maxLength = list.size();
                 }
-
-                //list.removeRange(0,list.indexOf(s.charAt(i)+1));
                 int n = list.indexOf(s.charAt(i));
-                //System.out.println("n: " + n);
                 for (int j = 0; j <= n; j++) {
                     list.remove(0);
                 }
                 list.add(s.charAt(i));
-                //System.out.println("deleted " + list.size() + " " + maxLength + " " + list.toString());
-
             }
         }
         if (list.size() > maxLength) {
